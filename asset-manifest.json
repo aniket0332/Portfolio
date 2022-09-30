@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/portfolio%20/static/css/main.bb814cb5.css",
+    "main.js": "/portfolio%20/static/js/main.c5ed907b.js",
+    "static/media/icon.png": "/portfolio%20/static/media/icon.bf9d2d8ffb4a5d2451a3.png",
+    "static/media/bgr.jpg": "/portfolio%20/static/media/bgr.00544ee7ca9698d99d04.jpg",
+    "static/media/instagram.png": "/portfolio%20/static/media/instagram.961d76e851100feeb33a.png",
+    "static/media/main.png": "/portfolio%20/static/media/main.1ac509fb59d0784507f9.png",
+    "static/media/logo2.png": "/portfolio%20/static/media/logo2.9ed05575d63b335bbfc1.png",
+    "static/media/intic.jpg": "/portfolio%20/static/media/intic.02e6767f9aea57cf3fc1.jpg",
+    "static/media/phonelogo.png": "/portfolio%20/static/media/phonelogo.b3a83c8ce769dfccd501.png",
+    "static/media/profile.jpg": "/portfolio%20/static/media/profile.88f6300a42287daa63b5.jpg",
+    "static/media/cc.png": "/portfolio%20/static/media/cc.e70be7121ff1cd44caaf.png",
+    "static/media/webdicon.png": "/portfolio%20/static/media/webdicon.ca511c283c68229584fb.png",
+    "static/media/code.png": "/portfolio%20/static/media/code.ab52ef9999df06db5ece.png",
+    "static/media/LinkedIn.png": "/portfolio%20/static/media/LinkedIn.f1d668322dd800064ae5.png",
+    "static/media/abouticon.png": "/portfolio%20/static/media/abouticon.4332250221e7156d0282.png",
+    "static/media/chessicon.png": "/portfolio%20/static/media/chessicon.ea9eaee1ca74c66fc4bc.png",
+    "static/media/emaillogo.png": "/portfolio%20/static/media/emaillogo.dbf14da7fa77545ea19d.png",
+    "index.html": "/portfolio%20/index.html",
+    "main.bb814cb5.css.map": "/portfolio%20/static/css/main.bb814cb5.css.map",
+    "main.c5ed907b.js.map": "/portfolio%20/static/js/main.c5ed907b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb814cb5.css",
+    "static/js/main.c5ed907b.js"
+  ]
+}
