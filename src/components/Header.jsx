@@ -11,7 +11,7 @@ export default function Header() {
         <img id="logo" src={logo2}  alt="logo"/>
 </div>
       <div id="li"> 
-       <ul> <Link id="Link1" to="/"> Home </Link> </ul>
+       <ul> <Link id="Link1" to="/portfolio"> Home </Link> </ul>
        <ul><Link id="Link" to="/Contact"> Contact </Link> </ul>
        <ul><Link id="Link" to="/About" > About </Link> </ul>
        </div>
