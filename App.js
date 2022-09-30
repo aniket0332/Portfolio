@@ -15,7 +15,7 @@ function App() {
   return (
 <>
 <Routes>
-<Route exact path="/" element={<Header/>}/>
+<Route exact path="/portfolio" element={<Header/>}/>
 <Route exact path="/About" element={<About/>}/>
 <Route exact path="/contact" element={<Contact/>}/>
 <Route exact path="/Skills" element={<Skills/>}/>
