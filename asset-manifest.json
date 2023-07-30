@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.85027213.css",
-    "main.js": "/portfolio/static/js/main.6f9c05ef.js",
+    "main.css": "/portfolio/static/css/main.77f1489a.css",
+    "main.js": "/portfolio/static/js/main.f6ea0d4c.js",
     "static/media/icon.png": "/portfolio/static/media/icon.bf9d2d8ffb4a5d2451a3.png",
     "static/media/bgr.jpg": "/portfolio/static/media/bgr.00544ee7ca9698d99d04.jpg",
     "static/media/instagram.png": "/portfolio/static/media/instagram.961d76e851100feeb33a.png",
-    "static/media/main.png": "/portfolio/static/media/main.1ac509fb59d0784507f9.png",
+    "static/media/main.jpg": "/portfolio/static/media/main.0737b73248f7b1df6f17.jpg",
     "static/media/logo2.png": "/portfolio/static/media/logo2.9ed05575d63b335bbfc1.png",
     "static/media/intic.jpg": "/portfolio/static/media/intic.02e6767f9aea57cf3fc1.jpg",
     "static/media/phonelogo.png": "/portfolio/static/media/phonelogo.b3a83c8ce769dfccd501.png",
@@ -18,11 +18,11 @@
     "static/media/chessicon.png": "/portfolio/static/media/chessicon.ea9eaee1ca74c66fc4bc.png",
     "static/media/emaillogo.png": "/portfolio/static/media/emaillogo.dbf14da7fa77545ea19d.png",
     "index.html": "/portfolio/index.html",
-    "main.85027213.css.map": "/portfolio/static/css/main.85027213.css.map",
-    "main.6f9c05ef.js.map": "/portfolio/static/js/main.6f9c05ef.js.map"
+    "main.77f1489a.css.map": "/portfolio/static/css/main.77f1489a.css.map",
+    "main.f6ea0d4c.js.map": "/portfolio/static/js/main.f6ea0d4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.85027213.css",
-    "static/js/main.6f9c05ef.js"
+    "static/css/main.77f1489a.css",
+    "static/js/main.f6ea0d4c.js"
   ]
 }
