@@ -1,362 +1,173 @@
 #main {
-    display: flex;
-    background-position-x: right; 
+    display: grid;
+    grid-template-columns: 45% 55%;
     color: rgb(255, 255, 255);
     font-size: 25px;
-}
-#main >#im {
-    height: 250px;
-   margin-top: 150px;
-   margin-left: 400px;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5%;
 }
 #ic {
     height: 300px;
-    margin-top: 120px;
-    margin-left: 90px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
- 
+
 }
- 
+
+#main div #img {
+    height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 250px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+ #container {
+    position: relative;
+    width: 50%;
+  }
+  
+ #name {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+ #container:hover #img {
+    opacity: 0.8;
+    transform: scale(1.01);
+  }
+  
+   #container:hover #name {
+    opacity: 1;
+  }
+  
+  #text {
+    font-weight: bolder;
+    color: aliceblue;
+    font-size: 50px;
+    opacity: 0.8;
+    padding: 16px 32px;
+  }
+
+#component .comps {
+    width: fit-content;
+    padding: 7px;
+    border: 0.05em white solid;
+    font-style: normal;
+    font-size: 1em;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+#component .comps:hover {
+    color: rgba(245, 245, 245, 0.636);
+    transform: scale(1.05);
+    transition: all 0.1s;
+}
+
 @keyframes floating {
-    0% { transform: translate(0,  0px); }
-    50%  { transform: translate(0, 15px); }
-    100%   { transform: translate(0, -0px); }   
-} 
-
-/* #im {
-    margin-top: -10px;
-    margin-left: 280px;
-    padding: 0%;
-    border-color: antiquewhite;
-    
-      } */
-
-    
-     
-#qq {
-     margin-top: 65px;
-    margin-left: -220px;
-    padding: 0.5%;
-    height: fit-content;
-    border-color: aliceblue;
-    border-style: solid;
-    border-width: 0.01cm;
-    background-color: rgba(20, 3, 3, 0);
-}
-
-#p {
-    height: fit-content;
-
-    background-color: rgba(20, 3, 3, 0);
-    margin-left: -360px;
-    margin-top: 250px;
-    border-color: aliceblue;
-    border-style: solid;
-    border-width: 0.01cm;
-    padding: 0.5%;
-
-}
-#i {
-    height: fit-content;
-
-    background-color: rgba(20, 3, 3, 0);
-
-    margin-left: 360px;
-    margin-top: 250px;
-    border-color: aliceblue;
-    border-style: solid;
-    border-width: 0.01cm;
-    padding: 0.5%;
-}
-#s {
-    height: fit-content;
-
-    background-color: rgba(20, 3, 3, 0);
-
-    margin-left: -420px;
-    margin-top: 430px;
-    border-color: aliceblue;
-    border-style: solid;
-    border-width: 0.01cm;
-    padding: 0.5%;
-}
-#pr {
-    height: fit-content;
-
-    background-color: rgba(20, 3, 3, 0);
-
-    margin-left: 150px;
-    margin-top: 430px;
-    border-color: aliceblue;
-    border-style: solid;
-    border-width: 0.01cm;
-    padding: 0.5%;
-}
-
-#s:hover {
-background-color: black;
-font-size: 25.5px;
-margin-left: -421.2px;
-
-}
-
-#pr:hover {
-    background-color: black;
-    font-size: 25.5px;
-    margin-left: 149px;
-    
+    0% {
+        transform: translate(0, 0px);
     }
 
-    #p:hover {
-        background-color: black;
-        font-size: 25.5px;
-        margin-left: -361.5px;
-        
-        }
+    50% {
+        transform: translate(0, 15px);
+    }
 
-        #i:hover {
-            background-color: black;
-            font-size: 25.5px;
-            margin-left: 358.3px;
-            
-            }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
 
-            #qq:hover {
-                background-color: black;
-                font-size: 25.5px;
-                margin-left: -220px;
-            }
+#component {
+    display: flex;
+    flex-direction: row;
+}
 
+#component #profiles {
+    margin-top: -90%;
+}
 
+#component #interests {
+    margin-top: -90%;
 
-/* /////////////////////////////////////////////////// */
- @media only screen and (max-width: 700px) {
+}
+
+@media only screen and (max-width: 1000px) {
+
     #ic {
-       height: 700px;
-        margin-left: 420px;
-    }   
-    
-    #main >#im {
-        height: 500px;
-        margin-top: 1290px;
-        margin-left: -710px;
-     }
-
-    #qq {
-        font-size: 80px;
-        margin-top: 1050px;
-       margin-left: -490px;
-       padding: 2.5%;
-       height: fit-content;
-       border-color: aliceblue;
-       border-style: solid;
-       border-width: 0.01cm;
-       background-color: rgba(20, 3, 3, 0);
-   }
-   
-   #p {
-       height: fit-content;
-       font-size: 80px;
-       margin-top: 1500px;
-
-       background-color: rgba(20, 3, 3, 0);
-       margin-left: -930px;
-       border-color: aliceblue;
-       border-style: solid;
-       border-width: 0.01cm;
-       padding: 2.5%;
-   
-   }
-   #i {        font-size: 80px;
-
-       height: fit-content;
-   
-       background-color: rgba(20, 3, 3, 0);
-   
-       margin-left: 750px;
-       margin-top: 1500px;
-       border-color: aliceblue;
-       border-style: solid;
-       border-width: 0.01cm;
-       padding: 2.5%;
-   }
-   #s {        font-size: 80px;
-
-       height: fit-content;
-   
-       background-color: rgba(20, 3, 3, 0);
-   
-       margin-left: -950px;
-       margin-top: 1930px;
-       border-color: aliceblue;
-       border-style: solid;
-       border-width: 0.01cm;
-       padding: 2.5%;
-   }
-   #pr {        font-size: 80px;
-
-       height: fit-content;
-       margin-top: 1930px;
-
-       background-color: rgba(20, 3, 3, 0);
-   
-       margin-left: 150px;
-       border-color: aliceblue;
-       border-style: solid;
-       border-width: 0.01cm;
-       padding: 2.5%;
-   }
-   
-   #s:hover {
-    background-color: black;
-    font-size: 80.5px;
-    margin-left: -950px;
-    
+        margin-bottom: 20%;
     }
-    
-    #pr:hover {
-        background-color: black;
-        font-size: 80.5px;
-        margin-left: 150px;
-        
-        }
-    
-        #p:hover {
-            background-color: black;
-            font-size: 80.5px;
-            margin-left: -930px;
-            
-            }
-    
-            #i:hover {
-                background-color: black;
-                font-size: 80.5px;
-                margin-left: 750px;
-                
-                }
-    
-                #qq:hover {
-                    background-color: black;
-                    font-size: 80.5px;
-                    margin-left: -392.65px;
-                }
-    
-    
+
+    #logo {
+        height: 65px;
+    }
+
+    #main {
+        margin: 0px;
+        grid-template-columns: 100%;
+    }
+
+    #main div #img {
+        height: 200px;
+    }
+
+    #component .comps {
+        font-size: 0.9em;
+        margin: 11px;
+        margin-bottom: 10%;
+    }
+
+    #component #profiles {
+        margin-top: -110px;
+    }
+
+    #component #interests {
+        margin-top: -110px;
+
+    }
+
+    #component #projects {
+        margin-left: 40px;
+    }
+
+    #component #interests {
+        margin-left: -5px;
+    }
+
+}
+
+#main1 {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (max-width: 500px) {
+
     #ic {
-       height: 700px;
-        margin-left: 290px;
-    }   
-    
-    #main >#im {
-        height: 500px;
-        margin-top: 1290px;
-        margin-left: -820px;
-     }
-
-    #qq {
-        font-size: 80px;
-        margin-top: 1050px;
-       margin-left: -530px;
-       padding: 2.5%;
-       height: fit-content;
-       border-color: aliceblue;
-       border-style: solid;
-       border-width: 0.01cm;
-       background-color: rgba(20, 3, 3, 0);
-   }
-   
-   #p {
-       height: fit-content;
-       font-size: 80px;
-       margin-top: 1500px;
-
-       background-color: rgba(20, 3, 3, 0);
-       margin-left: -940px;
-       border-color: aliceblue;
-       border-style: solid;
-       border-width: 0.01cm;
-       padding: 2.5%;
-   
-   }
-   #i {        font-size: 80px;
-
-       height: fit-content;
-   
-       background-color: rgba(20, 3, 3, 0);
-   
-       margin-left: 675px;
-       margin-top: 1500px;
-       border-color: aliceblue;
-       border-style: solid;
-       border-width: 0.01cm;
-       padding: 2.5%;
-   }
-   #s {        font-size: 80px;
-
-       height: fit-content;
-   
-       background-color: rgba(20, 3, 3, 0);
-   
-       margin-left: -1000px;
-       margin-top: 1930px;
-       border-color: aliceblue;
-       border-style: solid;
-       border-width: 0.01cm;
-       padding: 2.5%;
-   }
-   #pr {        font-size: 80px;
-
-       height: fit-content;
-       margin-top: 1930px;
-
-       background-color: rgba(20, 3, 3, 0);
-   
-       margin-left: 150px;
-       border-color: aliceblue;
-       border-style: solid;
-       border-width: 0.01cm;
-       padding: 2.5%;
-   }
-   
-   #s:hover {
-    background-color: black;
-    font-size: 80.5px;
-    margin-left: -1000px;
-    
+        height: 210px;    
     }
-    
-    #pr:hover {
-        background-color: black;
-        font-size: 80.5px;
-        margin-left: 150px;
-        
-        }
-    
-        #p:hover {
-            background-color: black;
-            font-size: 80.5px;
-            margin-left: -940px;
-            
-            }
-    
-            #i:hover {
-                background-color: black;
-                font-size: 80.5px;
-                margin-left: 675px;
-                
-                }
-    
-                #qq:hover {
-                    background-color: black;
-                    font-size: 80.5px;
-                    margin-left: -530px;
-                }
-    
-    
+    #logo {
+        height: 10px;
+    }
+    #component .comps {
+        font-size: 17px;
+        margin: 15px;
+    }
+    #main div #img {
+        height: 190px;    
+    }
 }
