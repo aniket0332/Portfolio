@@ -22,7 +22,7 @@ Tech-stack: NodeJs(Socket.io), HTML, CSS
           Link: <a href="https://aniket0332.github.io/webchat/">https://aniket0332.github.i<br />o/webchat/</a>
         </ul> <br />
         <ul><y>☣ gohotel:</y> It is a website where you can find hotels near you. - Html, CSS, Javascript (through APIs)
-          Link: <a href="https://aniket0332.github.io/go-hotel/" target="_blank">aniket0332.github.io/go-hotel</a>
+          Link: <a href="https://aniket0332.github.io/go-hotel/">aniket0332.github.io/go-hotel</a>
         </ul> <br />
         <ul><y>☣ Subject allotment system:</y> It has a Database management system which stores the information
           of professors, teaching assistants and allots them a subject according to their preferences and
